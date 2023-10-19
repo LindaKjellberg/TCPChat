@@ -9,7 +9,7 @@ This is a simple client-server chat application that allows multiple clients to 
 
 - **ClientHandler**: The `ClientHandler` class is responsible for managing individual client connections on the server-side. Each connected client is handled by a separate `ClientHandler` thread. The `ClientHandler` class listens for incoming messages from clients and broadcasts them to other clients.
 
--**Server**: The `Server` class sets up a server socket, listens for incoming client connections, and spawns a new `ClientHandler` thread for each connected client. It is responsible for starting and managing the server.
+- **Server**: The `Server` class sets up a server socket, listens for incoming client connections, and spawns a new `ClientHandler` thread for each connected client. It is responsible for starting and managing the server.
 
 
 ## Usage
