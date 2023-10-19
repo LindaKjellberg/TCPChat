@@ -45,9 +45,9 @@ To exit a client or the server, simply close the console or terminate the progra
 
 - The server can handle multiple client connections at once, making it suitable for small-scale group chat applications.
 
--Error handling is in place to ensure the graceful closure of sockets and streams in case of errors or client disconnections.
+- Error handling is in place to ensure the graceful closure of sockets and streams in case of errors or client disconnections.
 
--It is essential to have the server running before clients attempt to connect.
+- It is essential to have the server running before clients attempt to connect.
 
 ## Conclusion
 This Java client-server chat application provides a foundation for building more advanced chat systems with enhanced features and security. It serves as a valuable example of network communication in a client-server architecture.
